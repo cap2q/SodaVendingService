@@ -1,8 +1,23 @@
-[{
-		"IsActive": true,
-		"PromotionMessage": "You could win a trip to Hawaii. Buy a soda to try your luck!",
-		"PromotionHitMessage": "You won a trip to Hawaii!",
-		"PromotionMissMessage": "So close! Better luck next time.",
-		"ProbabilityRange": 50
-	}
+[
+  {
+    "IsActive": false,
+    "PromotionMessage": "You could win a trip to Hawaii. Buy a soda to try your luck!",
+    "PromotionHitMessage": "You won a trip to Hawaii!",
+    "PromotionMissMessage": "So close! Better luck next time.",
+    "ProbabilityRange": 50
+  },
+  {
+    "IsActive": true,
+    "PromotionMessage": "You could win a trip to Dubai. Buy a soda to try your luck!",
+    "PromotionHitMessage": "You won a trip to Dubai!",
+    "PromotionMissMessage": "So close! Better luck next time.",
+    "ProbabilityRange": 50
+  },
+  {
+    "IsActive": true,
+    "PromotionMessage": "You could win a trip to France. Buy a soda to try your luck!",
+    "PromotionHitMessage": "You won a trip to France!",
+    "PromotionMissMessage": "So close! Better luck next time.",
+    "ProbabilityRange": 50
+  }
 ]

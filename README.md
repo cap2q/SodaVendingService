@@ -5,7 +5,6 @@ SodaVendingService is a web based tool for vending machines to facilitate the pu
 The source code is written in C#, using Visual Studio .NET Core with an MVC Framework and Razor pages. The most relevant files and their hierarchy are as follows:
 
     - Models
-        -DisposeSodaModel.cs
         -IndexViewModel.cs
         -Promotion.cs
         -Soda.cs

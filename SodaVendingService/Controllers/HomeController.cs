@@ -15,6 +15,11 @@ namespace SodaVendingService.Controllers
         private List<Soda> sodas = JsonConvert.DeserializeObject<List<Soda>>(System.IO.File.ReadAllText("wwwroot/inventory.json"));
         private List<Promotion> promotions = JsonConvert.DeserializeObject<List<Promotion>>(System.IO.File.ReadAllText("wwwroot/promotions.json"));
 
+        // TODO: Move hard coded file paths to appsettings
+        // TODO: Separate Read/Write operations into its own class
+        // TODO: Create interface to implement different database storage mediums
+        // TODO: (On consult) seperate HasQuarters and SoldOut from states and into booleans
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
