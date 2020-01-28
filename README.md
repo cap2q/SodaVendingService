@@ -36,6 +36,6 @@ inventory.json updates on the activation of the SoldSoda state. It is decremente
 
 # Recording Transactions
 
-transaction.json updates on the activation of the SoldSoda state. It records the sodaId of a soda and the DateTime in which is was sold. 
+transaction.json updates on the activation of the SoldSoda state. It records the sodaId of a soda and the DateTime in which it was sold. 
 
 
